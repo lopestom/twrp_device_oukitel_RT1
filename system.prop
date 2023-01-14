@@ -1,0 +1,73 @@
+#from device
+# ADDITIONAL_DEFAULT_PROPERTIES
+ro.boot.hardware=mt6765
+ro.hardware=mt6765
+ro.mediatek.version.branch=alps-mp-r0.mssi1
+ro.sf.lcd_density=320
+ro.mount.fs=EXT4
+ro.vendor.rc=/vendor/etc/init/hw/
+ro.oem_unlock_supported=1
+# from device/mediatek/system/common/system.prop
+# identity
+Build.BRAND=MTK
+# end of device/mediatek/system/common/system.prop
+# ODM_BUILD_PROPERTIES
+ro.build.characteristics=tablet
+ro.mtp.label=RT1
+ro.ptp.label=RT1
+ro.internal.version=TP717_OQ_P03_8768_R0_EEA_V1.4.9.1_S20211022
+ro.cus.bt.name=RT1
+ro.tee_support=1
+ro.mtk_trustkernel_tee_support=1
+ro.mtk_tee_check_support=1
+ro.mtk_platform=MT6765
+ro.build.custom_int_version=TP717_OQ_P03_8768_R0_EEA_V1.4.9.1_S20211022
+ro.build.custom_version=OUKITEL_RT1_EEA_V06_20211022
+#
+# ODM_BUILD_PROPERTIES
+ro.mediatek.platform=MT6765
+ro.hardware.egl=mtk
+drm.service.enabled=true
+ro.frp.pst=/dev/block/platform/bootdevice/by-name/frp
+ro.vendor.mediatek.platform=MT6765
+ro.vendor.mtk_config_max_dram_size=0x800000000
+ro.vendor.mtk_f2fs_enable=0
+ro.vendor.mediatek.version.branch=alps-mp-r0.mp1
+ro.vendor.mediatek.version.release=alps-mp-r0.mp1-V8.183.1
+ro.vendor.faceunlock.tee=trustkernel
+ro.vendor.mtk_emmc_support=1
+ro.vendor.mtk_trustkernel_tee_support=1
+ro.hardware.kmsetkey=trustkernel
+ro.hardware.gatekeeper=trustkernel
+ro.vendor.mtk_data_config=1
+ro.crypto.volume.filenames_mode=aes-256-cts
+ro.apex.updatable=true
+init.userspace_reboot.is_supported=true
+ro.surface_flinger.max_frame_buffer_acquired_buffers=3
+persist.vendor.md_c2k_cap_dep_check=0
+ro.incremental.enable=yes
+ro.com.google.clientidbase=android-wheatek
+Build.BRAND=MTK
+# end common build properties
+#
+# others properties
+ro.boot.avb_version=1.1
+ro.boot.vbmeta.avb_version=1.1
+ro.crypto.allow_encrypt_override=true
+ro.crypto.dm_default_key.options_format.version=2
+ro.crypto.volume.metadata.method=dm-default-key
+# others functions
+ro.secure=0
+ro.adb.secure=0
+ro.debuggable=1
+persist.sys.usb.config=mtp,adb
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.isUsbOtgEnabled=true
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+ro.treble.enabled=true
+sys.usb.controller=musb-hdrc
+sys.usb.ffs.aio_compat=true
+fbe.metadata.wrappedkey=true
+vendor.gatekeeper.disable_spu=true
